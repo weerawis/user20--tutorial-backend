@@ -84,7 +84,7 @@ jobs:
     needs: [unitest,analyze]
     environment:
       name: dev
-      url: https://github.com/weerawis/weerawis-pipeline/actions/workflows/dev-tutorial-backend-deploy.yml
+      url: https://github.com/weerawis/user20-pipeline/actions/workflows/dev-tutorial-backend-deploy.yml
 
     steps:
     - name: Repository Dispatch
