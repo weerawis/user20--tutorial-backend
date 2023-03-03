@@ -91,6 +91,6 @@ jobs:
       uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.WORKFLOW_TOKEN }}
-        repository: <owner>/weerawis-pipeline
+        repository: <owner>/user20-pipeline
         event-type: weerawis-tutorial-be-cd-dev
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
